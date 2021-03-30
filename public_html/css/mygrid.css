@@ -1,0 +1,33 @@
+
+.gridcontainer3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30%);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  justify-content: left;
+  width: auto;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.gridcontainer3>.item {
+  padding: 12px;
+  background-color: none;
+}
+
+.gridcontainer2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 45%);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  justify-content: left;
+  width: auto;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.gridcontainer2>.item {
+  padding: 12px;
+  background-color: none;
+}
+

@@ -1,0 +1,22 @@
+
+.styled-ul ul {
+  width: auto;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.styled-ul li {
+  flex: auto;
+}
+
+.styled-ul div {
+  display: grid;
+  height: auto;
+  width: auto;
+  grid-gap: 5px;
+  grid-auto-flow: dense;
+}
+
